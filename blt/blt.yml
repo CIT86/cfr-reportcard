@@ -1,12 +1,12 @@
 project:
   machine_name: cfreight
-  prefix: local.
+  prefix: cfreight
   human_name: cfreight
   profile:
     name: lightning
   local:
     protocol: http
-    hostname: local.cfreight.com
+    hostname: local.${project.machine_name}.com
 git:
   default_branch: master
   remotes: {  }
