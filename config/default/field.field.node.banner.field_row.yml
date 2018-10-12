@@ -1,0 +1,21 @@
+uuid: e11068bf-46ca-47b6-84b8-f2a4ed49d540
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_row
+    - node.type.banner
+  module:
+    - text
+id: node.banner.field_row
+field_name: field_row
+entity_type: node
+bundle: banner
+label: 'Row Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

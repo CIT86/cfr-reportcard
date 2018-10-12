@@ -1,0 +1,29 @@
+uuid: f2719246-a18b-40ff-b407-3030a90ddbe7
+langcode: en
+status: true
+dependencies: {  }
+id: banner_creator
+label: 'Banner creator'
+weight: 7
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node banner content'
+  - 'administer panelizer node banner layout'
+  - 'change layouts in place editing'
+  - 'create banner content'
+  - 'create url aliases'
+  - 'edit own banner content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view banner revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

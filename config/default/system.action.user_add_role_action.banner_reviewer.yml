@@ -1,0 +1,14 @@
+uuid: 1c74eb9a-5553-4088-ba9a-b490bc15e27e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.banner_reviewer
+  module:
+    - user
+id: user_add_role_action.banner_reviewer
+label: 'Add the Banner reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: banner_reviewer

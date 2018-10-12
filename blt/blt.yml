@@ -1,12 +1,12 @@
 project:
   machine_name: cfreight
-  prefix: BLT
-  human_name: 'BLTed 8'
+  prefix: cfreight
+  human_name: cfreight
   profile:
     name: lightning
   local:
     protocol: http
-    hostname: 'local.${project.machine_name}.com'
+    hostname: local.${project.machine_name}.com
 git:
   default_branch: master
   remotes: {  }
@@ -34,3 +34,5 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+cm:
+  strategy: config-split
