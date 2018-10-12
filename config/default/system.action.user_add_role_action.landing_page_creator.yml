@@ -1,0 +1,14 @@
+uuid: 3b6422e4-f395-4170-868c-8ab319e1d230
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.landing_page_creator
+  module:
+    - user
+id: user_add_role_action.landing_page_creator
+label: 'Add the Landing page creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: landing_page_creator

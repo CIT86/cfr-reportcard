@@ -1,0 +1,16 @@
+uuid: f27712ff-75e9-41d0-bb37-89f34bc43434
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: O15STNqaxZJp9WQvMNCRYzhPnpaMVU0W8eVoijQd3rw
+id: layout_manager
+label: 'Layout manager'
+weight: 2
+is_admin: false
+permissions:
+  - 'administer node display'
+  - 'administer panelizer'
+  - 'administer panelizer node banner defaults'
+  - 'administer panelizer node landing_page defaults'
+  - 'administer panelizer node page defaults'
