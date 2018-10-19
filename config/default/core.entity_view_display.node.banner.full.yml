@@ -133,10 +133,10 @@ content:
     label: hidden
     settings:
       imagefield_slideshow_style: ''
-      imagefield_slideshow_style_effects: slideX
+      imagefield_slideshow_style_effects: scrollLeft
       imagefield_slideshow_style_pause: ''
       imagefield_slideshow_transition_speed: '2000'
-      imagefield_slideshow_timeout: '1000'
+      imagefield_slideshow_timeout: '500'
       imagefield_slideshow_prev_next: 0
     third_party_settings:
       ds:

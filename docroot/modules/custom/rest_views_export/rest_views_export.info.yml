@@ -1,0 +1,7 @@
+name: 'REST Views Export'
+type: module
+description: 'Custom plugin for Rest Export banner'
+core: 8.x
+package: 'Views'
+dependencies:
+  - views

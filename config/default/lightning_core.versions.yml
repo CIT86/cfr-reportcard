@@ -132,3 +132,4 @@ config_filter: 1.3.0
 module_filter: 3.1.0
 config_split: 1.4.0
 imagefield_slideshow: 1.7.0
+rest_views_export: 0.0.0

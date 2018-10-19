@@ -3,12 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.image_browser
     - field.field.node.banner.field_banner_image
     - field.field.node.banner.field_row
+    - field.field.node.banner.panelizer
+    - image.style.thumbnail
     - node.type.banner
   module:
-    - entity_browser
+    - image
     - path
     - text
 id: node.banner.default
@@ -17,16 +18,11 @@ bundle: banner
 mode: default
 content:
   field_banner_image:
-    type: entity_browser_file
+    type: image_image
     weight: 1
     settings:
-      entity_browser: image_browser
-      field_widget_edit: true
-      field_widget_remove: true
-      view_mode: default
       preview_image_style: thumbnail
-      open: true
-      selection_mode: selection_append
+      progress_indicator: throbber
     region: content
     third_party_settings: {  }
   field_row:
@@ -73,5 +69,6 @@ content:
 hidden:
   created: true
   moderation_state: true
+  panelizer: true
   sticky: true
   uid: true
